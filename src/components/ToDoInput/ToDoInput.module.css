@@ -39,9 +39,15 @@
 
 .addSvg {
   background: transparent;
-  width: 24px;
-  height: 24px;
+  width: 44px;
+  height: 44px;
   object-fit: contain;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25),
+    inset 0 0 6px rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
 }
 .addSvg:hover {
   background-color: #000301;
@@ -49,7 +55,7 @@
 }
 .added {
   background: transparent;
-  width: 30px;
-  height: 30px;
+  width: 44px;
+  height: 44px;
   object-fit: contain;
 }
